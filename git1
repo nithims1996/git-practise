@@ -1,0 +1,10 @@
+SQLite for the queries, Python (pandas, matplotlib) for the analysis and 
+chart.
+## What I found
+1. Machine Learning has the highest average marks (83.3) at the highest fee.
+2. Data Analytics averages 58.0 - the lowest of the three running courses.
+3. Cloud Basics has zero students, so it has no result to judge yet.
+## What is missing
+Only 10 students and one term of data. No attendance, no prior marks,
+no teacher experience - so this shows a difference, not a cause.
+## Files- `setup.sql` - tables and sample data- `analysis.ipynb` - the Python analysis- `chart.png` - average marks by cours  

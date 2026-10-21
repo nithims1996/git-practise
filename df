@@ -1,0 +1,49 @@
+id name city age course marks admitted
+1 Aarav Chennai 19 C1 78 10 Jan
+2 Meera Mumbai 21 C2 91 15 Jan
+3 Rahul Chennai 20 C1 55 02 Feb
+4 Sana Delhi 22 C3 88 11 Feb
+5 John Mumbai 19 C2 64 05 Mar
+6 Priya Chennai 23 C3 95 19 Mar
+7 Kabir Delhi 20 C1 41 01 Apr
+8 Divya Mumbai 21 - 72 14 Apr
+9 Arjun Delhi 24 C2 83 02 May
+10 Nisha Chennai 18 C3 67 20 May
+SQL & Python for Beginner Data Analysis — Student Workbook
+
+Page 2 of 27
+
+Divya has no course, and course C4 has no student. Those two gaps are on purpose - they
+teach NULL handling and joins.
+SQL setup - paste into DB Fiddle or SQLite:
+CREATE TABLE courses (
+course_id TEXT PRIMARY KEY,
+course_name TEXT,
+fee INTEGER,
+teacher TEXT
+);
+CREATE TABLE students (
+student_id INTEGER PRIMARY KEY,
+name TEXT,
+city TEXT,
+age INTEGER,
+course_id TEXT,
+marks INTEGER,
+admission_date DATE
+);
+INSERT INTO courses VALUES
+('C1','Data Analytics',15000,'Mr. Rao'),
+('C2','Web Development',12000,'Ms. Fernandes'),
+('C3','Machine Learning',20000,'Dr. Iyer'),
+('C4','Cloud Basics',10000,'Mr. Khan');
+INSERT INTO students VALUES
+(1,'Aarav','Chennai',19,'C1',78,'2026-01-10'),
+(2,'Meera','Mumbai',21,'C2',91,'2026-01-15'),
+(3,'Rahul','Chennai',20,'C1',55,'2026-02-02'),
+(4,'Sana','Delhi',22,'C3',88,'2026-02-11'),
+course_id course_name fee teacher
+C1 Data Analytics 15000 Mr. Rao
+C2 Web Development 12000 Ms. Fernandes
+C3 Machine Learning 20000 Dr. Iyer
+C4 Cloud Basics 10000 Mr. Khan
+SQL & Python for Beginner Data Analysis — Student Workbook

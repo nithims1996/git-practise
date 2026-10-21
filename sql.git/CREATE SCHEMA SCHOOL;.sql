@@ -37,3 +37,21 @@ INSERT INTO students VALUES
 
 SELECT name, city, marks FROM students;
 SELECT * FROM students;
+
+
+SELECT name, marks FROM students WHERE marks > 80;
+SELECT * FROM students WHERE city = 'Chennai' AND age < 21;
+SELECT * FROM students WHERE city IN ('Delhi','Mumbai');
+SELECT * FROM students WHERE name LIKE 'A%'; 
+SELECT * FROM students WHERE course_id IS NULL; 
+
+SELECT name, marks FROM students ORDER BY marks DESC LIMIT 3;
+
+SELECT COUNT(*), AVG(marks), MIN(marks), MAX(marks), SUM(marks)
+FROM students;
+
+SELECT city, COUNT(*) AS students, ROUND(AVG(marks),2) AS avg_marks
+FROM students
+GROUP BY city;
+
+

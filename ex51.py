@@ -1,8 +1,16 @@
 print ("hotel saravana")
-number=input(int("what do you want?"))
+user=(input("what do you want?"))
 biriyani=250
 meals=200
-if "customer"=="biriyani";
+if user=="biriyani":
  print ("biriyani is available")
- count=(input(int("how many do you want?")))
- bill={f"you have to pay "}
+ count=(int(input("how many do you want?")))
+ bill=count*biriyani
+ print(f"you have to pay {bill} for {count} biriyani")
+elif user=="meals":
+ print ("meals is available")
+ count=(int(input("how many do you want?")))
+ bill=count*meals
+ print(f"you have to pay {bill} for {count}meals")
+else:
+ print(f"sorry ,we don't have {user} availability")

@@ -11,7 +11,7 @@ df=pd.read_csv("students.csv")
 #print(df.columns) 
 
 #print(df["marks"]) 
-print(df[["name", "marks"]])
-# df[df["marks"] > 80] 
-# df[(df["city"] == "Chennai") & (df["age"] < 21)] 
-# df.loc[df["city"] == "Delhi"
+#print(df[["name", "marks"]])
+#print(df[df["marks"] > 80] )
+#print(df[(df["city"] == "Chennai") & (df["age"] < 21)] )
+print(df.loc[df["city"] == "Delhi"])

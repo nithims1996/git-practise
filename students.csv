@@ -1,15 +1,12 @@
-students = pd.DataFrame({
-"student_id": [1,2,3,4,5,6,7,8,9,10],
-"name": ["Aarav","Meera","Rahul","Sana","John",
-"Priya","Kabir","Divya","Arjun","Nisha"],
-"city": ["Chennai","Mumbai","Chennai","Delhi","Mumbai",
-"Chennai","Delhi","Mumbai","Delhi","Chennai"],
 
-"age": [19,21,20,22,19,23,20,21,24,18],
-"course_id": ["C1","C2","C1","C3","C2","C3","C1",None,"C2","C3"],
-"marks": [78,91,55,88,64,95,41,72,83,67],
-"admission_date": pd.to_datetime([
-"2026-01-10","2026-01-15","2026-02-02","2026-02-11","2026-03-05",
-"2026-03-19","2026-04-01","2026-04-14","2026-05-02","2026-05-20"]),
-
-})
+student_id,name,city,age,course_id,marks,admission_date
+1,Aarav,Chennai,19,C1,78,2026-01-10
+2,'Meera,Mumbai,21,C2,91,2026-01-15
+3,Rahul,Chennai,20,C1,55,2026-02-02
+4,Sana,Delhi,22,C3,88,2026-02-11
+5,John,Mumbai,19,C2,64,2026-03-05
+6,Priya,Chennai,23,C3,95,2026-03-19
+7,Kabir,Delhi,20,C1,41,2026-04-01
+8,Divya,Mumbai,21,NULL,72,2026-04-1
+9,Arjun,Delhi,24,C2,83,2026-05-02
+10,Nisha,Chennai,18,C3,67,2026-05-20

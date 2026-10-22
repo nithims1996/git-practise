@@ -8,10 +8,9 @@ id name city age course marks admitted
 7 Kabir Delhi 20 C1 41 01 Apr
 8 Divya Mumbai 21 - 72 14 Apr
 9 Arjun Delhi 24 C2 83 02 May
-10 Nisha Chennai 18 C3 67 20 May
-SQL & Python for Beginner Data Analysis — Student Workbook
+10 Nisha Chennai 18 C3 67 20 Maya
 
-Page 2 of 27
+
 
 Divya has no course, and course C4 has no student. Those two gaps are on purpose - they
 teach NULL handling and joins.
@@ -46,4 +45,3 @@ C1 Data Analytics 15000 Mr. Rao
 C2 Web Development 12000 Ms. Fernandes
 C3 Machine Learning 20000 Dr. Iyer
 C4 Cloud Basics 10000 Mr. Khan
-SQL & Python for Beginner Data Analysis — Student Workbook

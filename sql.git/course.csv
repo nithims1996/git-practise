@@ -1,5 +1,5 @@
 
-courses = pd.DataFrame({
+
 "course_id": ["C1","C2","C3","C4"],
 "course_name": ["Data Analytics","Web Development",
 "Machine Learning","Cloud Basics"],

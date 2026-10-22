@@ -6,6 +6,12 @@ df=pd.read_csv("students.csv")
 #print(df.head()) 
 
 #print(df.shape)
-print( df.info()) 
+#print( df.info()) 
 #print(df.describe())
-# print(df.columns) 
+#print(df.columns) 
+
+#print(df["marks"]) 
+print(df[["name", "marks"]])
+# df[df["marks"] > 80] 
+# df[(df["city"] == "Chennai") & (df["age"] < 21)] 
+# df.loc[df["city"] == "Delhi"

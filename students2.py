@@ -18,13 +18,12 @@ def grade(marks):
 
 df["grade"] = df["marks"].apply(grade)
 
-print(df[["marks", "grade"]])
+#print(df[["marks", "grade"]])
 
-# df.groupby("city")["marks"].mean()
-# df.groupby("city").agg(students=("name","count"),
-# avg_marks=("marks","mean"))
+#print( df.groupby("city")["marks"].mean())
+#print(df.groupby("city").agg(students=("name","count"),avg_marks=("marks","mean")))
 
-# df["city"].value_counts()
+print(df["city"].value_counts())
 
 # df.isnull().sum() # how many blanks per column
 # df["course_id"].fillna("Not enrolled") # replace blanks

@@ -1,0 +1,6 @@
+course_id,course_name,fee,teacher
+ C1,Data Analytics,15000 ,Mr. Rao
+ C2,Web Development,12000,Ms. Fernandes
+ C3,Machine Learning,20000,Dr.iyer
+ C4,Cloud Basics,10000,Mr.khan
+
